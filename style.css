@@ -47,3 +47,15 @@ h4 {
     cursor: pointer;
     font-size: 0.8rem;
 }
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
